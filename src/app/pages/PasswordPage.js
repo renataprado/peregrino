@@ -1,4 +1,4 @@
-import styles from "./password.module.css";
+import styles from "../styles/password.module.css";
 import { useState, useEffect } from "react";
 
 const LetterBox = ({ letter, pressed }) => {
