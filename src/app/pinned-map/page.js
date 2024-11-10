@@ -76,6 +76,6 @@ const MapLoader = () => {
   );
 };
 
-export default MapLoader;
+export default PinnedMap;
 
 //        mapTypeId={"hybrid"}

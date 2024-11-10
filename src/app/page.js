@@ -1,9 +1,6 @@
 'use client';
 
 import {useState} from "react";
-import styles from "./page.module.css";
-import NextHome from "./pages/nextHome";
-import { PinnedMap } from "./pages/pinnedMap";
 import PasswordPage from "./pages/PasswordPage";
 export default function Home() {
   const [currentPage, setCurrentPage] = useState();
