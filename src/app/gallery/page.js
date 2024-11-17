@@ -8,12 +8,14 @@ const images = filenames.map((name) => `/photos/${name}`);
 
 const Gallery = () => {
   const Comp = ({ h = 400, w = 400, src }) => {
+    const he = Math.floor(Math.random() * 6 + 2)*100
+    console.log(he)
     return (
       <div
         style={{
           position: "relative",
           width: `${w}px`,
-          height: `${h}px`,
+          height: `${he}px`,
           border: "1px solid blue",
           overflow: "hidden",
         }}
